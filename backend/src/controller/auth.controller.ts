@@ -43,7 +43,7 @@ export const login = async (req: Request, res: Response<LoginResponse>) => {
 
     res.cookie("Authorization", `Bearer ${accessToken}`, {
       expires: new Date(Date.now() + 24 * 60 * 60 * 1000),
-      sameSite: "strict",
+      sameSite: "none",
       secure: true,
       path: "/",
       httpOnly: true,
