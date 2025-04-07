@@ -11,12 +11,14 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <Provider store={store}>
-    <Toaster />
-    <div className="h-screen relative">
-      <App />
-    </div>
-  </Provider>
+  <React.StrictMode>
+    <Provider store={store}>
+      <Toaster />
+      <div className="h-screen relative">
+        <App />
+      </div>
+    </Provider>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
