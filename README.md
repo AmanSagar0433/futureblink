@@ -77,4 +77,4 @@ npm start
 - [Sequence Demo](https://drive.google.com/file/d/1klkXMXdRgvHBjUsZh7vTGJm_ffPHwCx_/view?usp=sharing)
 
 ### Hosted Demo
-[Live Link](https://godotengine.org)
+[Live Link](https://futureblink-cc84.vercel.app/)
