@@ -47,7 +47,6 @@ export const login = async (req: Request, res: Response<LoginResponse>) => {
       secure: true,
       path: "/",
       httpOnly: true,
-      domain: `${process.env.FRONTEND_URL}`
     });
 
 
